@@ -8,6 +8,10 @@ h1 {
 h2 {
     font-size: 40px;
 }
+p {
+    opacity: 0.7;
+    font-weight: 500;
+}
 .orange-color {
   color: orange;
 }
@@ -51,4 +55,15 @@ h2 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#left-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato) 20;
+}
+#right-border {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 20;
+}
+footer p {
+    text-align: center;
 }
